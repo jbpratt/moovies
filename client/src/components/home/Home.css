@@ -1,0 +1,35 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.grid-container {
+  /* -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3; */
+  /* -webkit-column-gap: 4em;
+  -moz-column-gap: 4em;
+  column-gap: 4em;
+  -webkit-column-rule: 1px dotted #ddd;
+  -moz-column-rule: 1px dotted #ddd;
+  column-rule: 1px dotted #ddd;
+  break-after: avoid-column;
+  page-break-after: always;
+  -webkit-column-break-after: avoid-column; */
+}
+
+/* @media (max-width: 600px) {
+  .grid-container {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-container {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+} */

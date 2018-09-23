@@ -1,0 +1,20 @@
+FROM node:8
+# Create app directory
+WORKDIR /usr/src/app
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
+ENV NODE_ENV production
+ENV MONGO_URI mongodb://jbpratt:John071797@ds255930.mlab.com:55930/jbpratt
+ENV SECRET_OR_KEY secret
+RUN npm install
+# If you are building your code for production
+# RUN npm install --only=production
+# Bundle app source
+COPY . .
+EXPOSE 5000
+
+CMD [ "npm", "start" ]
+
+

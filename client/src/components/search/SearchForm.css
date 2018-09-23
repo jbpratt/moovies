@@ -1,0 +1,16 @@
+.forms-container {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-rule: 1px dotted #ddd;
+  -moz-column-rule: 1px dotted #ddd;
+  column-rule: 1px dotted #ddd;
+  text-align: center;
+}
+
+.search-form {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  vertical-align: middle;
+}
