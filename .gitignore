@@ -3,7 +3,8 @@ node_modules
 
 # testing
 config/keys_devs
-
+config/keys_devs.js
+/config/keys_devs
 # production
 build
 
